@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Form</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body>
+    <section class="form__section">
+        <div class="form__wrapper">
+            <div class="form__header">
+                <p>Book your ticket here</p>
+                <a href="index.html" class="home-btn">Home</a>
+            </div>
+
+            <form action="">
+                <div class="name__section">
+                    <div class="first__name">
+                        <label for="first_name">First Name</label><br>
+                        <input type="text" id="first_name">
+                    </div>
+
+                    <div class="last__name">
+                        <label for="last_name">Last Name</label><br>
+                        <input type="text" id="last_name">
+                    </div>
+                </div>
+
+                <div class="email__section">
+                    <div class="email">
+                        <label for="email_address">Email Address</label><br>
+                        <input type="email" id="email_address">
+                    </div>
+
+                    <div class="confirm__email">
+                        <label for="email_address">Confirm Email Address</label><br>
+                        <input type="email" id="email_address">
+                    </div>
+                </div>
+
+                <div class="contact_section">
+                    <label for="phone__number">Phone Number</label><br>
+                    <input type="text" id="phone__number">
+                </div>
+
+                <div class="location__section">
+                    <div class="location__state">
+                        <label for="state">State</label><br>
+                        <input type="text" name="state" id="state">
+                    </div>
+
+                    <div class="location__city">
+                        <label for="city">City</label><br>
+                        <input type="text" name="city" id="city">
+                    </div>
+                </div>
+
+                <div class="movie__details">
+                    <div class="ticket__no">
+                        <label for="ticket">Number of Tickets (max of 4)</label><br>
+                        <select name="ticket" id="ticket">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+
+                    <div class="seat__location">
+                        <label for="seat">Seat Preference</label><br>
+                        <select name="seat" id="seat">
+                            <option value="Front Row">Front Row</option>
+                            <option value="Middle Row">Middle Row</option>
+                            <option value="Rear Row">Rear Row</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="watch__attend">
+                    <div class="watch__date">
+                        <label for="date">Date</label><br>
+                        <input type="date">
+                    </div>
+
+                    <div class="watch__time">
+                        <label for="time">Time</label><br>
+                        <input type="time">
+                    </div>
+                </div>
+            </form>
+            <button class="submit-btn">Proceed for Payment &#8594;</button>
+        </div>
+    </section>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primaryColor: black;
+  --headerFont: "Playfair Display", serif;
+  --primaryFont: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+/* ------- Navigation --------- */
+
+.navigation {
+  width: 100%;
+  background-color: var(--primaryColor);
+  box-shadow: 0 2px 4px 0 white;
+}
+
+.nav__bar {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.logo {
+  font-family: var(--headerFont);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list li a {
+  margin-right: 30px;
+  font-family: var(--primaryFont);
+  font-size: 1.3rem;
+  color: white;
+}
+
+.toggle-button {
+  display: none;
+}
+
+/* ------ Main ------- */
+
+main {
+  background-image: url(/assets/black-panther.jpg);
+  background-position: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 30px 0 30px 0;
+  overflow: hidden;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.movie__info {
+  max-width: 500px;
+  color: white;
+}
+
+.movie__info h2 {
+  font-family: var(--headerFont);
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.movie__info h3 {
+  font-family: var(--primaryFont);
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+.movie__info p {
+  font-family: var(--primaryFont);
+  font-size: 0.8em;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.book-btn {
+  display: none;
+}
+
+.form__wrapper {
+  padding: 16px;
+  background-color: white;
+  border-radius: 4px;
+} 
+
+.form__wrapper p {
+  font-family: var(--primaryFont);
+  font-size: 0.8em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.name__section,
+.email__section,
+.location__section,
+.movie__details,
+.watch__attend {
+  display: flex;
+  gap: 20px;
+}
+
+label {
+  font-family: var(--primaryFont);
+  font-size: 0.8em;
+}
+
+select,
+input {
+  width: 230px;
+  padding: 6px 8px;
+  font-size: 0.8em;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.contact_section input,
+.movie input {
+  width: 480px;
+  padding: 6px 8px;
+  font-size: 0.8em;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  padding: 10px 166px;
+  background-color: var(--primaryColor);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: var(--primaryFont);
+  font-size: 0.8em;
+}
+
+input:focus {
+  outline: none;
+}
+
+option {
+  font-family: var(--primaryFont);
+}

@@ -1,0 +1,88 @@
+/* ----- Styling for the Form for Mobile and Tablet ------ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primaryColor: black;
+  --headerFont: "Playfair Display", serif;
+  --primaryFont: "Poppins", sans-serif;
+}
+
+.form__section {
+  width: 90%;
+  margin: auto;
+}
+
+.form__wrapper {
+  padding: 16px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.form__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form__header p {
+  font-family: var(--primaryFont);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.home-btn {
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 4px 15px;
+  font-family: var(--primaryFont);
+  font-size: 1.3em;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+label {
+  font-family: var(--primaryFont);
+  font-size: 1.5em;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: var(--primaryFont);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: var(--primaryColor);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: var(--primaryFont);
+  font-size: 1.2em;
+}
+
+input:focus {
+  outline: none;
+}
+
+option {
+  font-family: var(--primaryFont);
+}

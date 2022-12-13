@@ -1,0 +1,42 @@
+/* -------- Tablet Screens ------------------- */
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  .nav__list {
+    display: none;
+  }
+
+  .logo {
+    font-family: var(--headerFont);
+    font-size: 1.5em;
+  }
+
+  .toggle-button {
+    display: block;
+    font-size: 22px;
+    color: white;
+    border: none;
+    background: none;
+  }
+
+  .book-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: white;
+    color: var(--primaryColor);
+    padding: 8px 15px;
+    font-family: var(--primaryFont);
+    font-size: 1em;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .main__content {
+    padding-top: 200px;
+  }
+
+  .form__section {
+    display: none;
+  }
+}

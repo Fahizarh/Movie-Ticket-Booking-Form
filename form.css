@@ -36,7 +36,7 @@ a {
 
 .form__header p {
   font-family: var(--primaryFont);
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
 }
 
@@ -45,7 +45,7 @@ a {
   color: white;
   padding: 4px 15px;
   font-family: var(--primaryFont);
-  font-size: 1.2em;
+  font-size: 1em;
   border: none;
   border-radius: 20px;
   font-weight: 600;
@@ -54,14 +54,14 @@ a {
 
 label {
   font-family: var(--primaryFont);
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 select,
 input {
   width: 100%;
   padding: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
   border: 1px solid gray;
   border-radius: 4px;
   margin-bottom: 10px;

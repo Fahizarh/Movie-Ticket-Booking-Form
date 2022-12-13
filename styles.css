@@ -66,7 +66,7 @@ a {
 /* ------ Main ------- */
 
 main {
-  background-image: url(/assets/black-panther.jpg);
+  background-image: url(assets/black-panther.jpg);
   background-position: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ main {
   padding: 16px;
   background-color: white;
   border-radius: 4px;
-} 
+}
 
 .form__wrapper p {
   font-family: var(--primaryFont);

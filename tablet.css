@@ -1,21 +1,51 @@
 /* -------- Tablet Screens ------------------- */
 
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1279px) and (orientation: portrait) {
   .nav__list {
     display: none;
   }
 
   .logo {
     font-family: var(--headerFont);
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .toggle-button {
     display: block;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     border: none;
     background: none;
+  }
+
+  .form__section {
+    display: none;
+  }
+
+  .movie__info {
+    max-width: 90%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 50%;
+  }
+
+  .movie__info h2 {
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .movie__info h3 {
+    font-family: var(--primaryFont);
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  .movie__info p {
+    font-family: var(--primaryFont);
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
   }
 
   .book-btn {
@@ -23,20 +53,76 @@
     margin-top: 20px;
     background-color: white;
     color: var(--primaryColor);
-    padding: 8px 15px;
+    padding: 10px 15px;
     font-family: var(--primaryFont);
-    font-size: 1em;
+    font-size: 1.3em;
     border: none;
-    border-radius: 20px;
+    border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
   }
+}
 
-  .main__content {
-    padding-top: 200px;
+@media (min-width: 768px) and (max-width: 1279px) and (orientation: landscape) {
+  .nav__list {
+    display: none;
+  }
+
+  .logo {
+    font-family: var(--headerFont);
+    font-size: 2em;
+  }
+
+  .toggle-button {
+    display: block;
+    font-size: 25px;
+    color: white;
+    border: none;
+    background: none;
   }
 
   .form__section {
     display: none;
   }
+
+  .movie__info {
+    max-width: 100%;
+    color: white;
+    padding-top: 20%;
+  }
+
+  .movie__info h2 {
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .movie__info h3 {
+    font-family: var(--primaryFont);
+    font-size: 1.3em;
+    margin-bottom: 15px;
+  }
+  .movie__info p {
+    font-family: var(--primaryFont);
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  .book-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: white;
+    color: var(--primaryColor);
+    padding: 10px 15px;
+    font-family: var(--primaryFont);
+    font-size: 1.3em;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
 }
+

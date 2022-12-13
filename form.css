@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 :root {
   --primaryColor: black;
   --headerFont: "Playfair Display", serif;
@@ -27,29 +23,10 @@ a {
   border-radius: 4px;
 }
 
-.form__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
 .form__header p {
   font-family: var(--primaryFont);
   font-size: 1em;
   font-weight: 500;
-}
-
-.home-btn {
-  background-color: var(--primaryColor);
-  color: white;
-  padding: 4px 15px;
-  font-family: var(--primaryFont);
-  font-size: 0.9em;
-  border: none;
-  border-radius: 20px;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 label {
@@ -78,6 +55,7 @@ input {
   border-radius: 4px;
   font-family: var(--primaryFont);
   font-size: 1.2em;
+  margin-bottom: 20px;
 }
 
 input:focus {
@@ -86,4 +64,11 @@ input:focus {
 
 option {
   font-family: var(--primaryFont);
+}
+
+.home-btn {
+  font-family: var(--primaryFont);
+  font-size: 1.5em;
+  color: var(--primaryColor);
+  cursor: pointer;
 }

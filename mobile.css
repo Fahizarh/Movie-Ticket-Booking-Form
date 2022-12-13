@@ -1,6 +1,6 @@
 /* -------- Mobile Screens ------------------- */
 
-@media (max-width: 481px) {
+@media (max-width: 768px) and (orientation: portrait) {
   .nav__list {
     display: none;
   }
@@ -18,8 +18,29 @@
     background: none;
   }
 
-  .main__content {
-    padding-top: 200px;
+  .movie__info {
+    max-width: 100%;
+    color: white;
+    padding-top: 40%;
+  }
+
+  .movie__info h2 {
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .movie__info h3 {
+    font-family: var(--primaryFont);
+    font-size: 0.7em;
+    margin-bottom: 10px;
+  }
+  .movie__info p {
+    font-family: var(--primaryFont);
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 28px;
   }
 
   .form__section {
@@ -40,3 +61,71 @@
     cursor: pointer;
   }
 }
+
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .nav__list {
+    display: none;
+  }
+
+  .nav__bar {
+    padding: 15px 0px;
+  }
+
+  .logo {
+    font-family: var(--headerFont);
+    font-size: 1.2em;
+  }
+
+  .toggle-button {
+    display: block;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background: none;
+  }
+
+  .movie__info {
+    max-width: 100%;
+    color: white;
+    padding-top: 5%;
+  }
+
+  .movie__info h2 {
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .movie__info h3 {
+    font-family: var(--primaryFont);
+    font-size: 0.7em;
+    margin-bottom: 10px;
+  }
+  .movie__info p {
+    font-family: var(--primaryFont);
+    font-size: 0.8em;
+    text-align: justify;
+    line-height: 28px;
+  }
+
+  .form__section {
+    display: none;
+  }
+
+  .book-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: white;
+    color: var(--primaryColor);
+    padding: 8px 15px;
+    font-family: var(--primaryFont);
+    font-size: 1em;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
